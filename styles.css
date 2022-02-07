@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+body {
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  background-color: #1B3C59;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.one {
+  font-size: 10rem;
+  background-color: #dbc561;
+}
+
+.two {
+  background-color: #dbc561;
+  font-size: 10rem;
+}
+
+.three {
+  background-color: #dbc561;
+  font-size: 10rem;
+}
+
+.four{
+  background-color: #dbc561;
+  font-size: 10rem;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.section{
+  margin-left: 0;
+  text-align: left;
+}
